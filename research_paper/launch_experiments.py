@@ -51,24 +51,18 @@ def run(params):
 include = [
     # 'credit',
     # 'pima',
-    'pima',
+    # 'pima',
     # 'occupancy',
     # 'compas',
     # 'adult',
     # 'mammographic_mases',
-    # 'ionosphere',
     # 'postoperative',
     # 'banknote',
     # 'compas',
     # 'adult',
-    # 'cv_0'
 ]
 
 exclude = [
-    # 'ionosphere',
-    # 'adult',
-    # #'pima',
-    # 'wine'
 ]
 
 
@@ -89,11 +83,10 @@ def should_include(experiment):
 
 experiments = glob.glob('research_paper/experiments/*/*/')
 filtered_experiments = [experiment for experiment in experiments if should_include(experiment)]
-# filtered_experiments = ['research_paper/experiments/abalone/cv_0/']
 methods_experiments = list(itertools.product(methods, filtered_experiments))
 
 
-with multiprocessing_context(processes=6) as pool:
+with multiprocessing_context(processes=10) as pool:
     with MultiprocessTQDM(len(methods_experiments), desc='Global progress') as mtqdm:
         for _ in pool.imap(run, methods_experiments):
             mtqdm.update()
