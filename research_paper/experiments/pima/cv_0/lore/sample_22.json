@@ -1,0 +1,32 @@
+{
+   "counterfactual_sample": {
+      "skin_thickness": 0.0, 
+      "pregnancies": 4.0, 
+      "bmi": 1.4732052249220255, 
+      "diabetes_pedigree_function": -0.733515, 
+      "blood_pressure": 72.0, 
+      "insulin": 0.0, 
+      "y": 1, 
+      "age": 26.0, 
+      "glucose": 171.0
+   }, 
+   "factual_class": 0, 
+   "factual_sample": {
+      "pregnancies": 4.0, 
+      "bmi": 1.4732052249220255, 
+      "diabetes_pedigree_function": 0.021514413129967127, 
+      "blood_pressure": 72.0, 
+      "age": 26.0, 
+      "insulin": 0.0, 
+      "y": 0, 
+      "skin_thickness": 0.0, 
+      "glucose": 171.0
+   }, 
+   "counterfactual_distance": 0.013343291800059063, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "diabetes_pedigree_function": "-0.766737< diabetes_pedigree_function <=-0.733515"
+   }, 
+   "counterfactual_time": 15.11302900314331, 
+   "counterfactual_found": true
+}

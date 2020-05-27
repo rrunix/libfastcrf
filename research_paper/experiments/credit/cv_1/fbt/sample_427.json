@@ -1,0 +1,78 @@
+{
+   "factual_sample": {
+      "isMale": 1.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": -0.12985753551489912,
+      "MaxPaymentAmountOverLast6Months": -0.3224832384724706,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 6.0,
+      "MostRecentBillAmount": -0.04872040720324962,
+      "MostRecentPaymentAmount": -0.19794935711874695,
+      "TotalOverdueCounts": 1.0,
+      "TotalMonthsOverdue": 11.0,
+      "HasHistoryOfOverduePayments": 1.0
+   },
+   "counterfactual_sample": {
+      "isMale": 1.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": -0.12985753551489912,
+      "MaxPaymentAmountOverLast6Months": -0.20564,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 6.0,
+      "MostRecentBillAmount": -0.04872040720324962,
+      "MostRecentPaymentAmount": -0.19794935711874695,
+      "TotalOverdueCounts": 1.0,
+      "TotalMonthsOverdue": 11.0,
+      "HasHistoryOfOverduePayments": 1.0
+   },
+   "factual_class": 0,
+   "counterfactual_class": 1,
+   "counterfactual_found": true,
+   "counterfactual_rule_id": 3340,
+   "counterfactual_rule": {
+      "11": [
+         0.5,
+         1.5
+      ],
+      "13": [
+         0.5,
+         null
+      ],
+      "0": [
+         0.5,
+         null
+      ],
+      "6": [
+         null,
+         1.5
+      ],
+      "1": [
+         null,
+         0.5
+      ],
+      "5": [
+         -0.21064,
+         null
+      ],
+      "10": [
+         null,
+         0.36553
+      ],
+      "4": [
+         null,
+         -0.02365
+      ],
+      "9": [
+         null,
+         0.82428
+      ]
+   },
+   "counterfactual_distance": 0.0002982119212364011,
+   "counterfactual_time": 3.7657740116119385
+}

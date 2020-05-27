@@ -1,0 +1,44 @@
+{
+   "counterfactual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": -0.6984967528068727, 
+      "MonthsWithLowSpendingOverLast6Months": 3.0, 
+      "MaxPaymentAmountOverLast6Months": 1.039091, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": -0.06321586866417711, 
+      "TotalOverdueCounts": 1.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 1.0, 
+      "HasHistoryOfOverduePayments": 1.0, 
+      "y": 1, 
+      "TotalMonthsOverdue": 1.0, 
+      "MostRecentPaymentAmount": 3.8016525270411994, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 0.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": -0.6984967528068727, 
+      "MaxPaymentAmountOverLast6Months": 1.2611589800216505, 
+      "HasHistoryOfOverduePayments": 1.0, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": -0.06321586866417711, 
+      "MostRecentPaymentAmount": 3.8016525270411994, 
+      "y": 1, 
+      "MonthsWithZeroBalanceOverLast6Months": 1.0, 
+      "TotalMonthsOverdue": 1.0, 
+      "TotalOverdueCounts": 1.0, 
+      "MonthsWithLowSpendingOverLast6Months": 3.0, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 0.0
+   }, 
+   "counterfactual_distance": 0.0005667706564205338, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "MaxPaymentAmountOverLast6Months": "1.028534< MaxPaymentAmountOverLast6Months <=1.039091"
+   }, 
+   "counterfactual_time": 16.01125192642212, 
+   "counterfactual_found": false
+}

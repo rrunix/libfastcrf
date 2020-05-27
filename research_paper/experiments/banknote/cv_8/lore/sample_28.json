@@ -1,0 +1,26 @@
+{
+   "counterfactual_sample": {
+      "y": 1, 
+      "skewness_wti": 0.22926, 
+      "variance_wti": 0.488116, 
+      "entropy": -0.05487138525280262, 
+      "curtosis_wty": -1.1891553352446578
+   }, 
+   "factual_class": 0, 
+   "factual_sample": {
+      "y": 0, 
+      "entropy": -0.05487138525280262, 
+      "variance_wti": 0.7672324608414551, 
+      "skewness_wti": 1.0373006377562153, 
+      "curtosis_wty": -1.1891553352446578
+   }, 
+   "counterfactual_distance": 0.058647294504429834, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "entropy": ">-0.401427", 
+      "variance_wti": "0.291325< variance_wti <=0.488116", 
+      "skewness_wti": "<=0.22926"
+   }, 
+   "counterfactual_time": 14.661078929901123, 
+   "counterfactual_found": true
+}

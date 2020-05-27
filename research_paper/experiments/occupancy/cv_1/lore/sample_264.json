@@ -1,0 +1,27 @@
+{
+   "counterfactual_sample": {
+      "CO2": 1.1430720926045843, 
+      "Temperature": 1.9673693000547416, 
+      "Light": 0.612449, 
+      "Humidity": 0.1256218492104626, 
+      "HumidityRatio": 0.9123181064913894, 
+      "y": 1
+   }, 
+   "factual_class": 0, 
+   "factual_sample": {
+      "CO2": 1.1430720926045843, 
+      "Temperature": 1.9673693000547416, 
+      "Light": 2.177661601883829, 
+      "Humidity": 0.1256218492104626, 
+      "HumidityRatio": 0.9123181064913894, 
+      "y": 0
+   }, 
+   "counterfactual_distance": 0.046140495364701654, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "Light": "0.367173< Light <=0.612449", 
+      "Temperature": ">0.099216"
+   }, 
+   "counterfactual_time": 16.534575939178467, 
+   "counterfactual_found": true
+}

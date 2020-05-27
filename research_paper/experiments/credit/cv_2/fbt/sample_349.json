@@ -1,0 +1,82 @@
+{
+   "factual_sample": {
+      "isMale": 0.0,
+      "isMarried": 1.0,
+      "AgeGroup": 3.0,
+      "EducationLevel": 3.0,
+      "MaxBillAmountOverLast6Months": 3.031456535716226,
+      "MaxPaymentAmountOverLast6Months": -0.215117664337276,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 6.0,
+      "MostRecentBillAmount": 3.2178423098108833,
+      "MostRecentPaymentAmount": 0.11141211458423222,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "counterfactual_sample": {
+      "isMale": 0.0,
+      "isMarried": 1.0,
+      "AgeGroup": 3.0,
+      "EducationLevel": 3.0,
+      "MaxBillAmountOverLast6Months": 3.031456535716226,
+      "MaxPaymentAmountOverLast6Months": -0.215117664337276,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 6.0,
+      "MostRecentBillAmount": 3.2178423098108833,
+      "MostRecentPaymentAmount": -0.36868,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 23,
+   "counterfactual_rule": {
+      "6": [
+         null,
+         0.5
+      ],
+      "10": [
+         null,
+         -0.36368
+      ],
+      "1": [
+         0.5,
+         null
+      ],
+      "7": [
+         null,
+         0.5
+      ],
+      "3": [
+         null,
+         3.5
+      ],
+      "5": [
+         -0.30012,
+         null
+      ],
+      "9": [
+         0.25628,
+         null
+      ],
+      "11": [
+         null,
+         0.5
+      ],
+      "8": [
+         5.5,
+         null
+      ],
+      "13": [
+         null,
+         0.5
+      ]
+   },
+   "counterfactual_distance": 0.0016668966229879123,
+   "counterfactual_time": 0.14381885528564453
+}

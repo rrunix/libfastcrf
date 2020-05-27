@@ -1,0 +1,94 @@
+{
+   "factual_sample": {
+      "isMale": 1.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": 1.2446268432812422,
+      "MaxPaymentAmountOverLast6Months": 0.3932872557621603,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 1.0,
+      "MonthsWithHighSpendingOverLast6Months": 0.0,
+      "MostRecentBillAmount": 1.445323162960183,
+      "MostRecentPaymentAmount": 1.6582194730991282,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "counterfactual_sample": {
+      "isMale": 1.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": 1.2446268432812422,
+      "MaxPaymentAmountOverLast6Months": -0.39459,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 1.0,
+      "MonthsWithHighSpendingOverLast6Months": 0.0,
+      "MostRecentBillAmount": 1.445323162960183,
+      "MostRecentPaymentAmount": 1.6582194730991282,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 171,
+   "counterfactual_rule": {
+      "13": [
+         null,
+         0.5
+      ],
+      "10": [
+         -0.29739,
+         null
+      ],
+      "12": [
+         null,
+         0.5
+      ],
+      "5": [
+         null,
+         -0.38959
+      ],
+      "8": [
+         null,
+         0.5
+      ],
+      "1": [
+         null,
+         0.5
+      ],
+      "0": [
+         0.5,
+         null
+      ],
+      "2": [
+         null,
+         2.5
+      ],
+      "11": [
+         null,
+         0.5
+      ],
+      "9": [
+         0.45298,
+         3.32393
+      ],
+      "4": [
+         1.04262,
+         4.97656
+      ],
+      "6": [
+         null,
+         0.5
+      ],
+      "7": [
+         0.5,
+         2.5
+      ]
+   },
+   "counterfactual_distance": 0.0020108514040772215,
+   "counterfactual_time": 0.32362985610961914
+}

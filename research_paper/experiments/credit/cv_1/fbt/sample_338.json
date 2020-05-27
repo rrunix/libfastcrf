@@ -1,0 +1,78 @@
+{
+   "factual_sample": {
+      "isMale": 0.0,
+      "isMarried": 0.0,
+      "AgeGroup": 1.0,
+      "EducationLevel": 3.0,
+      "MaxBillAmountOverLast6Months": -0.0007393059916252349,
+      "MaxPaymentAmountOverLast6Months": -0.30458897611660485,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 6.0,
+      "MostRecentBillAmount": 0.10156799926289448,
+      "MostRecentPaymentAmount": -0.2200466050975312,
+      "TotalOverdueCounts": 2.0,
+      "TotalMonthsOverdue": 5.0,
+      "HasHistoryOfOverduePayments": 1.0
+   },
+   "counterfactual_sample": {
+      "isMale": 0.0,
+      "isMarried": 0.0,
+      "AgeGroup": 1.0,
+      "EducationLevel": 3.0,
+      "MaxBillAmountOverLast6Months": -0.0007393059916252349,
+      "MaxPaymentAmountOverLast6Months": -0.30458897611660485,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 6.0,
+      "MostRecentBillAmount": 0.10156799926289448,
+      "MostRecentPaymentAmount": -0.2361,
+      "TotalOverdueCounts": 2.0,
+      "TotalMonthsOverdue": 5.0,
+      "HasHistoryOfOverduePayments": 1.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 271,
+   "counterfactual_rule": {
+      "11": [
+         1.5,
+         null
+      ],
+      "13": [
+         0.5,
+         null
+      ],
+      "0": [
+         null,
+         0.5
+      ],
+      "7": [
+         null,
+         3.5
+      ],
+      "6": [
+         null,
+         0.5
+      ],
+      "5": [
+         -0.42538,
+         -0.25091
+      ],
+      "10": [
+         -0.36368,
+         -0.2311
+      ],
+      "1": [
+         null,
+         0.5
+      ],
+      "9": [
+         null,
+         1.05192
+      ]
+   },
+   "counterfactual_distance": 5.5737948900890905e-05,
+   "counterfactual_time": 0.4300992488861084
+}

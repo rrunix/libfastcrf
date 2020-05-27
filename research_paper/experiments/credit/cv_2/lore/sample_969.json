@@ -1,0 +1,52 @@
+{
+   "counterfactual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 4.0, 
+      "MostRecentBillAmount": -0.5526285935897328, 
+      "MonthsWithLowSpendingOverLast6Months": 5.0, 
+      "MaxPaymentAmountOverLast6Months": 5.734724568988094, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 1.16549, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 3.0, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "y": 1, 
+      "TotalMonthsOverdue": 0.0, 
+      "MostRecentPaymentAmount": -0.3747273409490208, 
+      "AgeGroup": 2.0, 
+      "MonthsWithHighSpendingOverLast6Months": 1.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 4.0, 
+      "MostRecentBillAmount": -0.5526285935897328, 
+      "MaxPaymentAmountOverLast6Months": 5.734724568988094, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 2.0943080956279485, 
+      "MostRecentPaymentAmount": -0.3747273409490208, 
+      "y": 1, 
+      "MonthsWithZeroBalanceOverLast6Months": 3.0, 
+      "TotalMonthsOverdue": 0.0, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithLowSpendingOverLast6Months": 5.0, 
+      "AgeGroup": 2.0, 
+      "MonthsWithHighSpendingOverLast6Months": 1.0
+   }, 
+   "counterfactual_distance": 0.005302453094036254, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "EducationLevel": ">2.285263", 
+      "MostRecentBillAmount": "<=0.123669", 
+      "MonthsWithLowSpendingOverLast6Months": ">4.0", 
+      "MaxPaymentAmountOverLast6Months": ">0.455917", 
+      "isMarried": ">0.852742", 
+      "MaxBillAmountOverLast6Months": "-0.725467< MaxBillAmountOverLast6Months <=1.16549", 
+      "MonthsWithZeroBalanceOverLast6Months": ">2.138857", 
+      "MostRecentPaymentAmount": "<=-0.35263", 
+      "MonthsWithHighSpendingOverLast6Months": "<=2.0"
+   }, 
+   "counterfactual_time": 19.63034987449646, 
+   "counterfactual_found": false
+}

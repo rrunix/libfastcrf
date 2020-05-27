@@ -1,0 +1,82 @@
+{
+   "factual_sample": {
+      "isMale": 0.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": 0.7781351753261881,
+      "MaxPaymentAmountOverLast6Months": 0.11592618924624082,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 2.0,
+      "MostRecentBillAmount": 0.6187369273963904,
+      "MostRecentPaymentAmount": -0.13165761318239427,
+      "TotalOverdueCounts": 1.0,
+      "TotalMonthsOverdue": 2.0,
+      "HasHistoryOfOverduePayments": 1.0
+   },
+   "counterfactual_sample": {
+      "isMale": 0.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": 0.11505,
+      "MaxPaymentAmountOverLast6Months": 0.11592618924624082,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 2.0,
+      "MostRecentBillAmount": 1.6116599999999999,
+      "MostRecentPaymentAmount": -0.13165761318239427,
+      "TotalOverdueCounts": 1.0,
+      "TotalMonthsOverdue": 2.0,
+      "HasHistoryOfOverduePayments": 1.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 264,
+   "counterfactual_rule": {
+      "13": [
+         0.5,
+         null
+      ],
+      "11": [
+         0.5,
+         1.5
+      ],
+      "0": [
+         null,
+         0.5
+      ],
+      "7": [
+         null,
+         0.5
+      ],
+      "6": [
+         null,
+         0.5
+      ],
+      "8": [
+         1.5,
+         2.5
+      ],
+      "4": [
+         null,
+         0.12005
+      ],
+      "10": [
+         null,
+         0.91796
+      ],
+      "1": [
+         null,
+         0.5
+      ],
+      "9": [
+         1.60666,
+         null
+      ]
+   },
+   "counterfactual_distance": 0.009233665732374961,
+   "counterfactual_time": 0.4317922592163086
+}

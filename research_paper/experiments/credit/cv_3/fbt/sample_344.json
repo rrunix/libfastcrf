@@ -1,0 +1,82 @@
+{
+   "factual_sample": {
+      "isMale": 1.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": 0.0700674650372669,
+      "MaxPaymentAmountOverLast6Months": -0.215117664337276,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 1.0,
+      "MonthsWithHighSpendingOverLast6Months": 2.0,
+      "MostRecentBillAmount": -0.15480634117935135,
+      "MostRecentPaymentAmount": -0.2642411010550996,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "counterfactual_sample": {
+      "isMale": 1.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": 0.0700674650372669,
+      "MaxPaymentAmountOverLast6Months": -0.40353,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 1.0,
+      "MonthsWithHighSpendingOverLast6Months": 2.0,
+      "MostRecentBillAmount": -0.15480634117935135,
+      "MostRecentPaymentAmount": -0.30239,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 0,
+   "counterfactual_found": true,
+   "counterfactual_rule_id": 9,
+   "counterfactual_rule": {
+      "13": [
+         null,
+         0.5
+      ],
+      "10": [
+         -0.31948,
+         -0.29739
+      ],
+      "11": [
+         null,
+         0.5
+      ],
+      "7": [
+         null,
+         5.5
+      ],
+      "5": [
+         null,
+         -0.39853
+      ],
+      "6": [
+         null,
+         0.5
+      ],
+      "12": [
+         null,
+         0.5
+      ],
+      "4": [
+         null,
+         0.68026
+      ],
+      "9": [
+         null,
+         3.32393
+      ],
+      "0": [
+         0.5,
+         null
+      ]
+   },
+   "counterfactual_distance": 0.0006133277057761734,
+   "counterfactual_time": 0.5683619976043701
+}

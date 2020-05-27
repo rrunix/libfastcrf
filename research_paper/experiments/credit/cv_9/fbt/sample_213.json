@@ -1,0 +1,82 @@
+{
+   "factual_sample": {
+      "isMale": 0.0,
+      "isMarried": 0.0,
+      "AgeGroup": 1.0,
+      "EducationLevel": 3.0,
+      "MaxBillAmountOverLast6Months": 1.8402367407595703,
+      "MaxPaymentAmountOverLast6Months": -0.01828077842275249,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 2.0,
+      "MostRecentBillAmount": 2.077418519567789,
+      "MostRecentPaymentAmount": 0.15560661054180067,
+      "TotalOverdueCounts": 1.0,
+      "TotalMonthsOverdue": 2.0,
+      "HasHistoryOfOverduePayments": 1.0
+   },
+   "counterfactual_sample": {
+      "isMale": 0.0,
+      "isMarried": 0.0,
+      "AgeGroup": 1.0,
+      "EducationLevel": 3.0,
+      "MaxBillAmountOverLast6Months": 1.8402367407595703,
+      "MaxPaymentAmountOverLast6Months": -0.3409,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 2.0,
+      "MostRecentBillAmount": 2.077418519567789,
+      "MostRecentPaymentAmount": 0.15560661054180067,
+      "TotalOverdueCounts": 1.0,
+      "TotalMonthsOverdue": 2.0,
+      "HasHistoryOfOverduePayments": 1.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 9,
+   "counterfactual_rule": {
+      "3": [
+         null,
+         3.5
+      ],
+      "2": [
+         null,
+         2.5
+      ],
+      "5": [
+         null,
+         -0.3359
+      ],
+      "11": [
+         0.5,
+         null
+      ],
+      "6": [
+         null,
+         0.5
+      ],
+      "1": [
+         null,
+         0.5
+      ],
+      "7": [
+         null,
+         0.5
+      ],
+      "9": [
+         0.03968,
+         null
+      ],
+      "8": [
+         1.5,
+         2.5
+      ],
+      "4": [
+         0.59279,
+         null
+      ]
+   },
+   "counterfactual_distance": 0.0008234015006098182,
+   "counterfactual_time": 0.03127765655517578
+}

@@ -1,0 +1,53 @@
+{
+   "counterfactual_sample": {
+      "isMale": 0.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": -0.5172666155976989, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "MaxPaymentAmountOverLast6Months": -0.3314303696504035, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": -0.5297075366192311, 
+      "TotalOverdueCounts": 1.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "HasHistoryOfOverduePayments": 1.0, 
+      "y": 0, 
+      "TotalMonthsOverdue": 12.0, 
+      "MostRecentPaymentAmount": -0.1537548611611785, 
+      "AgeGroup": 2.0, 
+      "MonthsWithHighSpendingOverLast6Months": 5.0
+   }, 
+   "factual_class": 0, 
+   "factual_sample": {
+      "isMale": 0.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": -0.5172666155976989, 
+      "MaxPaymentAmountOverLast6Months": -0.3314303696504035, 
+      "HasHistoryOfOverduePayments": 1.0, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": -0.5297075366192311, 
+      "MostRecentPaymentAmount": -0.1537548611611785, 
+      "y": 0, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "TotalMonthsOverdue": 12.0, 
+      "TotalOverdueCounts": 1.0, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "AgeGroup": 2.0, 
+      "MonthsWithHighSpendingOverLast6Months": 5.0
+   }, 
+   "counterfactual_distance": 0.0, 
+   "counterfactual_class": 0, 
+   "counterfactual_rule": {
+      "isMale": "<=0.404886", 
+      "EducationLevel": "<=3.436542", 
+      "MostRecentBillAmount": "<=-0.420021", 
+      "MonthsWithLowSpendingOverLast6Months": "<=2.0", 
+      "MaxBillAmountOverLast6Months": "-0.604679< MaxBillAmountOverLast6Months <=-0.383929", 
+      "MonthsWithZeroBalanceOverLast6Months": "<=0.419993", 
+      "TotalOverdueCounts": ">0.582737", 
+      "MaxPaymentAmountOverLast6Months": "<=-0.286695", 
+      "AgeGroup": "<=2.41799", 
+      "MonthsWithHighSpendingOverLast6Months": ">3.138287"
+   }, 
+   "counterfactual_time": 19.404263973236084, 
+   "counterfactual_found": false
+}

@@ -1,0 +1,82 @@
+{
+   "factual_sample": {
+      "isMale": 1.0,
+      "isMarried": 1.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 3.0,
+      "MaxBillAmountOverLast6Months": 1.5486794482876614,
+      "MaxPaymentAmountOverLast6Months": 4.7505401394154765,
+      "MonthsWithZeroBalanceOverLast6Months": 1.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 0.0,
+      "MostRecentBillAmount": 1.688436761655416,
+      "MostRecentPaymentAmount": 0.31028734639329025,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "counterfactual_sample": {
+      "isMale": 1.0,
+      "isMarried": 1.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 3.0,
+      "MaxBillAmountOverLast6Months": -0.0349,
+      "MaxPaymentAmountOverLast6Months": 4.7505401394154765,
+      "MonthsWithZeroBalanceOverLast6Months": 2.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 0.0,
+      "MostRecentBillAmount": 1.688436761655416,
+      "MostRecentPaymentAmount": -0.36868,
+      "TotalOverdueCounts": 1.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 100,
+   "counterfactual_rule": {
+      "11": [
+         0.5,
+         1.5
+      ],
+      "13": [
+         null,
+         0.5
+      ],
+      "3": [
+         null,
+         3.5
+      ],
+      "8": [
+         null,
+         1.5
+      ],
+      "6": [
+         1.5,
+         3.5
+      ],
+      "7": [
+         null,
+         1.5
+      ],
+      "5": [
+         0.47829,
+         null
+      ],
+      "10": [
+         null,
+         -0.36368
+      ],
+      "0": [
+         0.5,
+         null
+      ],
+      "4": [
+         null,
+         -0.0299
+      ]
+   },
+   "counterfactual_distance": 0.04711205033156336,
+   "counterfactual_time": 0.22980761528015137
+}

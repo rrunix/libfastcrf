@@ -1,0 +1,82 @@
+{
+   "factual_sample": {
+      "isMale": 0.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": 0.1033882984626279,
+      "MaxPaymentAmountOverLast6Months": 0.3932872557621603,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 0.0,
+      "MostRecentBillAmount": -0.008938181962211472,
+      "MostRecentPaymentAmount": 1.6582194730991282,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "counterfactual_sample": {
+      "isMale": 0.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 4.0,
+      "MaxBillAmountOverLast6Months": -0.12861,
+      "MaxPaymentAmountOverLast6Months": -0.41248,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 0.0,
+      "MostRecentBillAmount": -0.008938181962211472,
+      "MostRecentPaymentAmount": -0.14771,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 0,
+   "counterfactual_rule": {
+      "11": [
+         null,
+         0.5
+      ],
+      "13": [
+         null,
+         0.5
+      ],
+      "8": [
+         null,
+         0.5
+      ],
+      "5": [
+         null,
+         -0.40748
+      ],
+      "4": [
+         null,
+         -0.12361
+      ],
+      "1": [
+         null,
+         0.5
+      ],
+      "10": [
+         null,
+         -0.14271
+      ],
+      "0": [
+         null,
+         0.5
+      ],
+      "9": [
+         null,
+         0.10378
+      ],
+      "7": [
+         null,
+         0.5
+      ]
+   },
+   "counterfactual_distance": 0.009651197268012097,
+   "counterfactual_time": 0.7630679607391357
+}

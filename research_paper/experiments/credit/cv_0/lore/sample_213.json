@@ -1,0 +1,51 @@
+{
+   "counterfactual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 4.0, 
+      "MostRecentBillAmount": 1.6398140419163696, 
+      "MonthsWithLowSpendingOverLast6Months": 4.0, 
+      "MaxPaymentAmountOverLast6Months": -0.250906, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 1.4278914271207277, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "y": 0, 
+      "TotalMonthsOverdue": 0.0, 
+      "MostRecentPaymentAmount": 0.31028734639329025, 
+      "AgeGroup": 2.0, 
+      "MonthsWithHighSpendingOverLast6Months": 0.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 4.0, 
+      "MostRecentBillAmount": 1.6398140419163696, 
+      "MaxPaymentAmountOverLast6Months": 0.3664458622283616, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 1.4278914271207277, 
+      "MostRecentPaymentAmount": 0.31028734639329025, 
+      "y": 1, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "TotalMonthsOverdue": 0.0, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithLowSpendingOverLast6Months": 4.0, 
+      "AgeGroup": 2.0, 
+      "MonthsWithHighSpendingOverLast6Months": 0.0
+   }, 
+   "counterfactual_distance": 0.0015756297696025074, 
+   "counterfactual_class": 0, 
+   "counterfactual_rule": {
+      "MostRecentBillAmount": ">1.007719", 
+      "MonthsWithLowSpendingOverLast6Months": "3.921667< MonthsWithLowSpendingOverLast6Months <=5.0", 
+      "MaxBillAmountOverLast6Months": ">1.223801", 
+      "MostRecentPaymentAmount": ">0.111412", 
+      "MonthsWithZeroBalanceOverLast6Months": "<=1.0", 
+      "TotalOverdueCounts": "<=0.951284", 
+      "MaxPaymentAmountOverLast6Months": "-0.349325< MaxPaymentAmountOverLast6Months <=-0.250906", 
+      "MonthsWithHighSpendingOverLast6Months": "<=0.100974"
+   }, 
+   "counterfactual_time": 19.218618154525757, 
+   "counterfactual_found": true
+}

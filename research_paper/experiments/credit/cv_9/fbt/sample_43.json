@@ -1,0 +1,86 @@
+{
+   "factual_sample": {
+      "isMale": 1.0,
+      "isMarried": 0.0,
+      "AgeGroup": 3.0,
+      "EducationLevel": 2.0,
+      "MaxBillAmountOverLast6Months": 0.20751590291688105,
+      "MaxPaymentAmountOverLast6Months": -0.3403775008283364,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 0.0,
+      "MostRecentBillAmount": 0.34468159795812764,
+      "MostRecentPaymentAmount": -0.1537548611611785,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 0.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "counterfactual_sample": {
+      "isMale": 1.0,
+      "isMarried": 0.0,
+      "AgeGroup": 2.0,
+      "EducationLevel": 2.0,
+      "MaxBillAmountOverLast6Months": 0.24167,
+      "MaxPaymentAmountOverLast6Months": -0.3409,
+      "MonthsWithZeroBalanceOverLast6Months": 0.0,
+      "MonthsWithLowSpendingOverLast6Months": 0.0,
+      "MonthsWithHighSpendingOverLast6Months": 0.0,
+      "MostRecentBillAmount": 3.68255,
+      "MostRecentPaymentAmount": 0.12746,
+      "TotalOverdueCounts": 0.0,
+      "TotalMonthsOverdue": 2.0,
+      "HasHistoryOfOverduePayments": 0.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 0,
+   "counterfactual_found": true,
+   "counterfactual_rule_id": 1,
+   "counterfactual_rule": {
+      "3": [
+         null,
+         3.5
+      ],
+      "2": [
+         null,
+         2.5
+      ],
+      "5": [
+         null,
+         -0.3359
+      ],
+      "11": [
+         null,
+         0.5
+      ],
+      "12": [
+         1.5,
+         3.5
+      ],
+      "8": [
+         null,
+         0.5
+      ],
+      "9": [
+         3.67755,
+         null
+      ],
+      "1": [
+         null,
+         0.5
+      ],
+      "4": [
+         0.23667,
+         null
+      ],
+      "7": [
+         null,
+         0.5
+      ],
+      "10": [
+         0.12246,
+         null
+      ]
+   },
+   "counterfactual_distance": 0.04726557945998763,
+   "counterfactual_time": 0.03171968460083008
+}

@@ -1,0 +1,28 @@
+{
+   "counterfactual_sample": {
+      "density": 3, 
+      "age": 60.0, 
+      "shape": 2, 
+      "bi-rads": 4.0, 
+      "y": 1, 
+      "margin": 4
+   }, 
+   "factual_class": 0, 
+   "factual_sample": {
+      "density": 3, 
+      "age": 67, 
+      "shape": 2, 
+      "bi-rads": 5, 
+      "y": 0, 
+      "margin": 4
+   }, 
+   "counterfactual_distance": 0.021585081585081586, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "age": "<=60.0", 
+      "shape": "<=3.624844", 
+      "bi-rads": "<=4.546465"
+   }, 
+   "counterfactual_time": 15.445078134536743, 
+   "counterfactual_found": true
+}

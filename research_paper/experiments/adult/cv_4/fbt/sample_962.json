@@ -1,0 +1,80 @@
+{
+   "factual_sample": {
+      "age": 63.0,
+      "NativeCountry": 0.0,
+      "WorkClass": 2.0,
+      "EducationNumber": 9.0,
+      "EducationLevel": 3.0,
+      "MaritalStatus": 2.0,
+      "Occupation": 2.0,
+      "Relationship": 0.0,
+      "CapitalGain": 13.613475607414596,
+      "CapitalLoss": -0.21637494832950374,
+      "HoursPerWeek": 40.0
+   },
+   "counterfactual_sample": {
+      "age": 63.0,
+      "NativeCountry": 0.0,
+      "WorkClass": 0.0,
+      "EducationNumber": 9.0,
+      "EducationLevel": 3.0,
+      "MaritalStatus": 3.0,
+      "Occupation": 2.0,
+      "Relationship": 0.0,
+      "CapitalGain": 13.613475607414596,
+      "CapitalLoss": -0.21637494832950374,
+      "HoursPerWeek": 27.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 1469,
+   "counterfactual_rule": {
+      "8": [
+         0.66494,
+         null
+      ],
+      "7": [
+         null,
+         0.5
+      ],
+      "5": [
+         2.5,
+         null
+      ],
+      "6": [
+         null,
+         8.0
+      ],
+      "3": [
+         null,
+         12.5
+      ],
+      "0": [
+         20.0,
+         null
+      ],
+      "10": [
+         null,
+         27.5
+      ],
+      "2": [
+         null,
+         0.5
+      ],
+      "4": [
+         null,
+         4.5
+      ],
+      "9": [
+         null,
+         5.63524
+      ],
+      "1": [
+         null,
+         0.5
+      ]
+   },
+   "counterfactual_distance": 0.051020408163265314,
+   "counterfactual_time": 2.656780242919922
+}

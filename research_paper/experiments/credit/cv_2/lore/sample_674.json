@@ -1,0 +1,51 @@
+{
+   "counterfactual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": -0.627773, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "MaxPaymentAmountOverLast6Months": -0.2777475825828062, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 1.373745072804516, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "y": 0, 
+      "TotalMonthsOverdue": 0.0, 
+      "MostRecentPaymentAmount": -0.13165761318239427, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 1.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": 0.4949700044242718, 
+      "MaxPaymentAmountOverLast6Months": -0.2777475825828062, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 1.373745072804516, 
+      "MostRecentPaymentAmount": -0.13165761318239427, 
+      "y": 1, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "TotalMonthsOverdue": 0.0, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 1.0
+   }, 
+   "counterfactual_distance": 0.006160563811911715, 
+   "counterfactual_class": 0, 
+   "counterfactual_rule": {
+      "EducationLevel": "2.90077< EducationLevel <=3.456823", 
+      "MostRecentBillAmount": "-0.694077< MostRecentBillAmount <=-0.627773", 
+      "MonthsWithLowSpendingOverLast6Months": "<=3.0", 
+      "MaxBillAmountOverLast6Months": ">-0.546368", 
+      "MostRecentPaymentAmount": "<=-0.043269", 
+      "MaxPaymentAmountOverLast6Months": "<=-0.215118", 
+      "AgeGroup": ">2.249571", 
+      "MonthsWithHighSpendingOverLast6Months": "0.488573< MonthsWithHighSpendingOverLast6Months <=1.342882"
+   }, 
+   "counterfactual_time": 16.52583909034729, 
+   "counterfactual_found": true
+}

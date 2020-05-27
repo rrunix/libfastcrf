@@ -1,0 +1,52 @@
+{
+   "counterfactual_sample": {
+      "isMale": 0.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": 3.1869005790678533, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "MaxPaymentAmountOverLast6Months": -0.063016, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 2.8856778894802715, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 1.0, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "y": 1, 
+      "TotalMonthsOverdue": 0.0, 
+      "MostRecentPaymentAmount": -0.0653658692460416, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 3.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "isMale": 0.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": 3.1869005790678533, 
+      "MaxPaymentAmountOverLast6Months": 3.8289856280883883, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 2.8856778894802715, 
+      "MostRecentPaymentAmount": -0.0653658692460416, 
+      "y": 1, 
+      "MonthsWithZeroBalanceOverLast6Months": 1.0, 
+      "TotalMonthsOverdue": 0.0, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 3.0
+   }, 
+   "counterfactual_distance": 0.009933320046079495, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "MostRecentBillAmount": ">1.546989", 
+      "MonthsWithLowSpendingOverLast6Months": "<=1.0", 
+      "isMarried": ">0.509581", 
+      "MonthsWithZeroBalanceOverLast6Months": "<=1.307477", 
+      "TotalMonthsOverdue": "<=1.015334", 
+      "TotalOverdueCounts": "<=1.315474", 
+      "MaxPaymentAmountOverLast6Months": "<=-0.063016", 
+      "MostRecentPaymentAmount": "<=-0.043269", 
+      "MonthsWithHighSpendingOverLast6Months": "3.0< MonthsWithHighSpendingOverLast6Months <=3.633789"
+   }, 
+   "counterfactual_time": 18.897783994674683, 
+   "counterfactual_found": false
+}

@@ -1,0 +1,52 @@
+{
+   "counterfactual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": 0.6717798943844413, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "MaxPaymentAmountOverLast6Months": 1.3327360294451134, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 0.5990356956648728, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "y": 1, 
+      "TotalMonthsOverdue": 0.0, 
+      "MostRecentPaymentAmount": -0.175852, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 6.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 3.0, 
+      "MostRecentBillAmount": 0.6717798943844413, 
+      "MaxPaymentAmountOverLast6Months": 1.3327360294451134, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "isMarried": 1.0, 
+      "MaxBillAmountOverLast6Months": 0.5990356956648728, 
+      "MostRecentPaymentAmount": -0.04326862126725737, 
+      "y": 1, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "TotalMonthsOverdue": 0.0, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 6.0
+   }, 
+   "counterfactual_distance": 0.0004603341308059771, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "EducationLevel": "2.0< EducationLevel <=3.0", 
+      "MostRecentBillAmount": ">0.433087", 
+      "MonthsWithLowSpendingOverLast6Months": "<=1.907442", 
+      "HasHistoryOfOverduePayments": "<=0.338109", 
+      "TotalOverdueCounts": "-0.137498< TotalOverdueCounts <=0.334145", 
+      "TotalMonthsOverdue": "<=3.349975", 
+      "MostRecentPaymentAmount": "-0.286338< MostRecentPaymentAmount <=-0.175852", 
+      "AgeGroup": ">2.492948", 
+      "MonthsWithHighSpendingOverLast6Months": ">3.0"
+   }, 
+   "counterfactual_time": 19.79304790496826, 
+   "counterfactual_found": false
+}

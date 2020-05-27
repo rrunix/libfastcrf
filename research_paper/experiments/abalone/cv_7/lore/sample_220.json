@@ -1,0 +1,35 @@
+{
+   "counterfactual_sample": {
+      "shucked_weight": 0.8589511700480813, 
+      "diameter": 0.5252423994470907, 
+      "whole_weight": 0.8377165946117123, 
+      "shell_weight": 1.014248091933517, 
+      "viscera_weight": 0.8431153362814453, 
+      "height": 0.370226, 
+      "length": 0.8411819763832166, 
+      "y": 0, 
+      "sex": 1.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "shucked_weight": 0.8589511700480813, 
+      "diameter": 0.5252423994470907, 
+      "whole_weight": 0.8377165946117123, 
+      "shell_weight": 1.014248091933517, 
+      "viscera_weight": 0.8431153362814453, 
+      "height": 0.4897799348943839, 
+      "length": 0.8411819763832166, 
+      "y": 1, 
+      "sex": 1.0
+   }, 
+   "counterfactual_distance": 0.0005530963031423275, 
+   "counterfactual_class": 0, 
+   "counterfactual_rule": {
+      "shucked_weight": "0.214622< shucked_weight <=1.372156", 
+      "length": "0.539956< length <=1.049379", 
+      "shell_weight": ">0.475401", 
+      "height": "<=0.370226"
+   }, 
+   "counterfactual_time": 16.617098093032837, 
+   "counterfactual_found": true
+}

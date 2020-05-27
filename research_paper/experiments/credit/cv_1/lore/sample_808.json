@@ -1,0 +1,53 @@
+{
+   "counterfactual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 4.0, 
+      "MostRecentBillAmount": 5.671079533008236, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "MaxPaymentAmountOverLast6Months": 0.008560615111046171, 
+      "isMarried": 0.0, 
+      "MaxBillAmountOverLast6Months": 3.518774, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "y": 1, 
+      "TotalMonthsOverdue": 0.0, 
+      "MostRecentPaymentAmount": 0.487065, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 6.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 4.0, 
+      "MostRecentBillAmount": 5.671079533008236, 
+      "MaxPaymentAmountOverLast6Months": 0.008560615111046171, 
+      "HasHistoryOfOverduePayments": 0.0, 
+      "isMarried": 0.0, 
+      "MaxBillAmountOverLast6Months": 5.309768521175284, 
+      "MostRecentPaymentAmount": 0.7080378100114063, 
+      "y": 1, 
+      "MonthsWithZeroBalanceOverLast6Months": 0.0, 
+      "TotalMonthsOverdue": 0.0, 
+      "TotalOverdueCounts": 0.0, 
+      "MonthsWithLowSpendingOverLast6Months": 0.0, 
+      "AgeGroup": 3.0, 
+      "MonthsWithHighSpendingOverLast6Months": 6.0
+   }, 
+   "counterfactual_distance": 0.010991686378296341, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "EducationLevel": ">2.087096", 
+      "MostRecentBillAmount": ">4.994782", 
+      "isMarried": "<=0.375347", 
+      "MaxBillAmountOverLast6Months": "-0.471396< MaxBillAmountOverLast6Months <=3.518774", 
+      "MonthsWithZeroBalanceOverLast6Months": "<=2.038419", 
+      "HasHistoryOfOverduePayments": "<=0.463706", 
+      "TotalOverdueCounts": "<=0.462004", 
+      "TotalMonthsOverdue": "<=1.0", 
+      "MostRecentPaymentAmount": "<=0.487065", 
+      "MonthsWithHighSpendingOverLast6Months": ">3.319989"
+   }, 
+   "counterfactual_time": 19.984010934829712, 
+   "counterfactual_found": false
+}

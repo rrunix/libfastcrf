@@ -1,0 +1,37 @@
+{
+   "counterfactual_sample": {
+      "l_surf": 2, 
+      "l_core": 2, 
+      "comfort": 10, 
+      "l_bp": 2, 
+      "surf_stbl": 0, 
+      "l_02": 0.0, 
+      "y": 1, 
+      "core_stbl": 1, 
+      "bp_stbl": 1.0
+   }, 
+   "factual_class": 0, 
+   "factual_sample": {
+      "l_surf": 2, 
+      "l_core": 2, 
+      "comfort": 10, 
+      "l_bp": 2, 
+      "surf_stbl": 0, 
+      "l_02": 0, 
+      "y": 0, 
+      "core_stbl": 1, 
+      "bp_stbl": 2
+   }, 
+   "counterfactual_distance": 0.041666666666666664, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "l_core": ">0.931283", 
+      "comfort": "<=10.682997", 
+      "l_bp": ">1.521985", 
+      "surf_stbl": "<=0.527929", 
+      "l_02": "0.046168< l_02 <=0.805819", 
+      "bp_stbl": "0.702696< bp_stbl <=1.484939"
+   }, 
+   "counterfactual_time": 11.733627080917358, 
+   "counterfactual_found": true
+}

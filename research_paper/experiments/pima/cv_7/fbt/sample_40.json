@@ -1,0 +1,62 @@
+{
+   "factual_sample": {
+      "pregnancies": 1.0,
+      "glucose": 95.0,
+      "blood_pressure": 82.0,
+      "skin_thickness": 25.0,
+      "insulin": 180.0,
+      "bmi": 0.3816997148468679,
+      "diabetes_pedigree_function": -0.7214347814996059,
+      "age": 43.0
+   },
+   "counterfactual_sample": {
+      "pregnancies": 1.0,
+      "glucose": 95.0,
+      "blood_pressure": 82.0,
+      "skin_thickness": 25.0,
+      "insulin": 180.0,
+      "bmi": 0.86265,
+      "diabetes_pedigree_function": -0.7214347814996059,
+      "age": 43.0
+   },
+   "factual_class": 1,
+   "counterfactual_class": 1,
+   "counterfactual_found": false,
+   "counterfactual_rule_id": 1170,
+   "counterfactual_rule": {
+      "1": [
+         28.5,
+         118.5
+      ],
+      "7": [
+         30.5,
+         null
+      ],
+      "5": [
+         0.85765,
+         null
+      ],
+      "0": [
+         null,
+         5.5
+      ],
+      "6": [
+         null,
+         -0.40885
+      ],
+      "3": [
+         20.5,
+         28.5
+      ],
+      "2": [
+         37.0,
+         83.5
+      ],
+      "4": [
+         129.0,
+         null
+      ]
+   },
+   "counterfactual_distance": 0.007059276587766564,
+   "counterfactual_time": 1.3880460262298584
+}

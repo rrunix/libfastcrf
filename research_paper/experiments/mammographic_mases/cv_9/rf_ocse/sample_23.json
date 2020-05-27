@@ -1,0 +1,241 @@
+{
+   "found": true,
+   "num_iterations": 29,
+   "num_foil": 9,
+   "_observation": [
+      4,
+      37,
+      2,
+      1,
+      2
+   ],
+   "_idx": 23,
+   "factual_class": 1,
+   "feature_bounds_splits": {
+      "0": {
+         "type": 2,
+         "values": [
+            4.5,
+            5.5
+         ]
+      },
+      "1": {
+         "type": 2,
+         "values": [
+            null,
+            44.5
+         ]
+      },
+      "2": {
+         "type": 2,
+         "values": [
+            1.5,
+            null
+         ]
+      },
+      "3": {
+         "type": 2,
+         "values": [
+            null,
+            1.5
+         ]
+      },
+      "4": {
+         "type": 2,
+         "values": [
+            1.5,
+            null
+         ]
+      }
+   },
+   "splits": [
+      [
+         0,
+         4.5,
+         false
+      ],
+      [
+         0,
+         5.5,
+         true
+      ],
+      [
+         2,
+         1.5,
+         false
+      ],
+      [
+         3,
+         1.5,
+         true
+      ],
+      [
+         4,
+         1.5,
+         false
+      ],
+      [
+         1,
+         44.5,
+         true
+      ]
+   ],
+   "remaining_rules": [
+      91,
+      168,
+      183,
+      300,
+      515,
+      518,
+      590,
+      592,
+      782,
+      783,
+      846,
+      847,
+      1002,
+      1003,
+      1133,
+      1134,
+      1230,
+      1290
+   ],
+   "set_rules": [
+      91,
+      168,
+      300,
+      515,
+      590,
+      782,
+      846,
+      1002,
+      1133,
+      1230
+   ],
+   "foil_estimated_class": [
+      0
+   ],
+   "distance": 0.0036363636363636364,
+   "extraction_time": 0.015183687210083008,
+   "feature_bounds": {
+      "0": {
+         "type": 2,
+         "values": [
+            4.5,
+            5.5
+         ]
+      },
+      "1": {
+         "type": 2,
+         "values": [
+            null,
+            39.5
+         ]
+      },
+      "2": {
+         "type": 2,
+         "values": [
+            1.5,
+            2.5
+         ]
+      },
+      "3": {
+         "type": 2,
+         "values": [
+            null,
+            1.5
+         ]
+      },
+      "4": {
+         "type": 2,
+         "values": [
+            1.5,
+            2.5
+         ]
+      }
+   },
+   "feature_bounds_compact": {
+      "0": {
+         "type": 2,
+         "values": [
+            4.5,
+            5.5
+         ]
+      },
+      "1": {
+         "type": 2,
+         "values": [
+            null,
+            39.5
+         ]
+      },
+      "2": {
+         "type": 2,
+         "values": [
+            null,
+            2.5
+         ]
+      },
+      "3": {
+         "type": 2,
+         "values": [
+            null,
+            3.5
+         ]
+      },
+      "4": {
+         "type": 2,
+         "values": [
+            1.5,
+            3.5
+         ]
+      }
+   },
+   "feature_bounds_compact_count": {
+      "0": {
+         "type": 2,
+         "values": [
+            4.5,
+            5.5
+         ]
+      },
+      "1": {
+         "type": 2,
+         "values": [
+            null,
+            53.5
+         ]
+      },
+      "2": {
+         "type": 2,
+         "values": [
+            null,
+            2.5
+         ]
+      },
+      "3": {
+         "type": 2,
+         "values": [
+            null,
+            1.5
+         ]
+      },
+      "4": {
+         "type": 2,
+         "values": [
+            1.5,
+            3.5
+         ]
+      }
+   },
+   "counterfactual_sample": [
+      5.0,
+      37.0,
+      2.0,
+      1.0,
+      2.0
+   ],
+   "counterfactual_distance": 0.0036363636363636364,
+   "counterfactual_class": 0,
+   "valid_": true
+}

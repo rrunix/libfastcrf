@@ -1,0 +1,53 @@
+{
+   "counterfactual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 4.0, 
+      "MostRecentBillAmount": -0.6896562583088642, 
+      "MonthsWithLowSpendingOverLast6Months": 6.0, 
+      "MaxPaymentAmountOverLast6Months": -0.3672188943621351, 
+      "isMarried": 0.0, 
+      "MaxBillAmountOverLast6Months": -0.7462929538840777, 
+      "TotalOverdueCounts": 1.0, 
+      "MonthsWithZeroBalanceOverLast6Months": 1.0, 
+      "HasHistoryOfOverduePayments": 1.0, 
+      "y": 1, 
+      "TotalMonthsOverdue": 2.0, 
+      "MostRecentPaymentAmount": -0.242144, 
+      "AgeGroup": 2.0, 
+      "MonthsWithHighSpendingOverLast6Months": 0.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "isMale": 1.0, 
+      "EducationLevel": 4.0, 
+      "MostRecentBillAmount": -0.6896562583088642, 
+      "MaxPaymentAmountOverLast6Months": -0.3672188943621351, 
+      "HasHistoryOfOverduePayments": 1.0, 
+      "isMarried": 0.0, 
+      "MaxBillAmountOverLast6Months": -0.7462929538840777, 
+      "MostRecentPaymentAmount": -0.2200466050975312, 
+      "y": 1, 
+      "MonthsWithZeroBalanceOverLast6Months": 1.0, 
+      "TotalMonthsOverdue": 2.0, 
+      "TotalOverdueCounts": 1.0, 
+      "MonthsWithLowSpendingOverLast6Months": 6.0, 
+      "AgeGroup": 2.0, 
+      "MonthsWithHighSpendingOverLast6Months": 0.0
+   }, 
+   "counterfactual_distance": 7.672292841479901e-05, 
+   "counterfactual_class": 1, 
+   "counterfactual_rule": {
+      "isMale": ">0.747967", 
+      "EducationLevel": ">3.405888", 
+      "MostRecentBillAmount": "<=-0.552629", 
+      "MaxPaymentAmountOverLast6Months": "<=-0.214373", 
+      "MaxBillAmountOverLast6Months": "<=-0.596349", 
+      "MonthsWithZeroBalanceOverLast6Months": ">0.325774", 
+      "TotalMonthsOverdue": "1.0< TotalMonthsOverdue <=7.0", 
+      "TotalOverdueCounts": "0.419668< TotalOverdueCounts <=1.052599", 
+      "MostRecentPaymentAmount": "<=-0.242144", 
+      "MonthsWithHighSpendingOverLast6Months": "<=1.326622"
+   }, 
+   "counterfactual_time": 15.983965158462524, 
+   "counterfactual_found": false
+}

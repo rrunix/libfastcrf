@@ -1,0 +1,37 @@
+{
+   "counterfactual_sample": {
+      "EducationLevel": 3.0, 
+      "MaritalStatus": 2.271961, 
+      "WorkClass": 2.0, 
+      "Relationship": 1.0, 
+      "age": 63.0, 
+      "EducationNumber": 9.0, 
+      "y": 0, 
+      "HoursPerWeek": 40.0, 
+      "NativeCountry": 0.0, 
+      "CapitalGain": 0.523105, 
+      "CapitalLoss": -0.21637494832950374, 
+      "Occupation": 2.0
+   }, 
+   "counterfactual_time": 11.377727031707764, 
+   "counterfactual_distance": 0.026871441436295426, 
+   "factual_sample": {
+      "EducationLevel": 3.0, 
+      "MaritalStatus": 4.0, 
+      "WorkClass": 2.0, 
+      "Relationship": 1.0, 
+      "age": 63.0, 
+      "CapitalLoss": -0.21637494832950374, 
+      "y": 0, 
+      "HoursPerWeek": 40.0, 
+      "NativeCountry": 0.0, 
+      "CapitalGain": -0.1473664551602441, 
+      "EducationNumber": 9.0, 
+      "Occupation": 2.0
+   }, 
+   "counterfactual_found": false, 
+   "counterfactual_rule": {
+      "CapitalGain": ">0.522105", 
+      "MaritalStatus": ">1.271961"
+   }
+}

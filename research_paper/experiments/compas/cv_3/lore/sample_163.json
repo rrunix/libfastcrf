@@ -1,0 +1,29 @@
+{
+   "counterfactual_sample": {
+      "Sex": 1, 
+      "ChargeDegree": 1.0, 
+      "Race": 1, 
+      "y": 0, 
+      "AgeGroup": 2, 
+      "PriorsCount": 4.0
+   }, 
+   "factual_class": 0, 
+   "factual_sample": {
+      "Sex": 1, 
+      "ChargeDegree": 1, 
+      "Race": 1, 
+      "y": 0, 
+      "AgeGroup": 2, 
+      "PriorsCount": 6
+   }, 
+   "counterfactual_distance": 0.010526315789473684, 
+   "counterfactual_class": 0, 
+   "counterfactual_rule": {
+      "ChargeDegree": "1.410259< ChargeDegree <=1.741855", 
+      "Race": ">0.468359", 
+      "Sex": "<=1.513412", 
+      "PriorsCount": "2.098188< PriorsCount <=4.040517"
+   }, 
+   "counterfactual_time": 12.82263994216919, 
+   "counterfactual_found": false
+}

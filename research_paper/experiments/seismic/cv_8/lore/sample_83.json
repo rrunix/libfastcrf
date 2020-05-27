@@ -1,0 +1,53 @@
+{
+   "counterfactual_sample": {
+      "genergy": 179710, 
+      "seismoacoustic": 1, 
+      "ghazard": 0, 
+      "shift": 1, 
+      "energy": 400.0, 
+      "maxenergy": 1000.0, 
+      "gdenergy": 5, 
+      "gpuls": 274, 
+      "nbumps4": 0, 
+      "y": 0, 
+      "nbumps5": 0, 
+      "seismic": 0, 
+      "nbumps": 4, 
+      "gdpuls": -42, 
+      "nbumps2": 3, 
+      "nbumps3": 1
+   }, 
+   "factual_class": 0, 
+   "factual_sample": {
+      "genergy": 179710, 
+      "maxenergy": 2000, 
+      "y": 0, 
+      "shift": 1, 
+      "energy": 3000, 
+      "seismoacoustic": 1, 
+      "gdenergy": 5, 
+      "gpuls": 274, 
+      "nbumps4": 0, 
+      "ghazard": 0, 
+      "nbumps5": 0, 
+      "seismic": 0, 
+      "nbumps3": 1, 
+      "gdpuls": -42, 
+      "nbumps2": 3, 
+      "nbumps": 4
+   }, 
+   "counterfactual_distance": 0.000597844112769486, 
+   "counterfactual_class": 0, 
+   "counterfactual_rule": {
+      "maxenergy": "100.0< maxenergy <=1000.0", 
+      "shift": ">0.573734", 
+      "energy": "<=400.0", 
+      "seismoacoustic": ">0.698728", 
+      "gdenergy": ">0.0", 
+      "seismic": "<=0.613828", 
+      "nbumps2": ">1.0", 
+      "nbumps": ">2.040356"
+   }, 
+   "counterfactual_time": 18.399837970733643, 
+   "counterfactual_found": false
+}

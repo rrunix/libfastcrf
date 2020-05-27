@@ -1,0 +1,28 @@
+{
+   "counterfactual_sample": {
+      "Sex": 1, 
+      "ChargeDegree": 2, 
+      "Race": 0, 
+      "y": 0, 
+      "AgeGroup": 3, 
+      "PriorsCount": 5.0
+   }, 
+   "factual_class": 1, 
+   "factual_sample": {
+      "Sex": 1, 
+      "ChargeDegree": 2, 
+      "Race": 0, 
+      "y": 1, 
+      "AgeGroup": 3, 
+      "PriorsCount": 0
+   }, 
+   "counterfactual_distance": 0.02631578947368421, 
+   "counterfactual_class": 0, 
+   "counterfactual_rule": {
+      "Sex": "<=1.36817", 
+      "AgeGroup": ">2.669625", 
+      "PriorsCount": "4.0< PriorsCount <=5.852054"
+   }, 
+   "counterfactual_time": 18.44135284423828, 
+   "counterfactual_found": true
+}
